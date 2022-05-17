@@ -6,6 +6,7 @@
 - How to set default shell on mac?
 - How to set prompt and color on shell?
 - Use which file to set command?
+- How to change shell setting in Visual Studio Code?
 
 ## Codes
 
@@ -49,3 +50,4 @@ prompt
 - [zsh prompt](https://zsh.sourceforge.io/Doc/Release/Prompt-Expansion.html#Prompt-Expansion)
 - [zsh color](https://www.ditig.com/256-colors-cheat-sheet)
 - [zsh files](https://zsh.sourceforge.io/Doc/Release/Files.html#Startup_002fShutdown-Files)
+- [Visual Studio Code - Integrated Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal)
