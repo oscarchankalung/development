@@ -1,5 +1,10 @@
 # Index
 
+- [Content](#content)
+- [References](#references)
+
+## Content
+
 - 01 Installation
   - 01 Getting Started
   - 02 Add React to a Website
@@ -52,4 +57,9 @@
 - 05 Best Practices
   - 01 React Hook Form and Formik
 
-**Reference**: https://reactjs.org/docs/getting-started.html
+## References
+
+- [Reactjs.org - Docs](https://reactjs.org/docs/getting-started.html)
+- [Reactjs.org - Tutorials](https://reactjs.org/docs/getting-started.html)
+- [GitHub.com - React Basic](https://github.com/reactjs/react-basic)
+- [GitHub..com - React Fiber Architecture](https://github.com/acdlite/react-fiber-architecture)
