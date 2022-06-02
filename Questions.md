@@ -10,6 +10,16 @@
 
 - What are the benefits of typescript?
 
+## Technical Implementation
+
+- How to handle loading image?
+https://stackoverflow.com/questions/35265751/image-preloading-in-react-native
+https://medium.com/react-native-training/progressive-image-loading-in-react-native-e7a01827feb7
+
+- How to optimize Carousel?
+
+- 
+
 ## Thinking in React 
 
 - Step 1: Break The UI Into A Component Hierarchy (Naming and Hierarchy)
