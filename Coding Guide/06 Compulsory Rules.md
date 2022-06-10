@@ -1,19 +1,12 @@
 # Compulsory Rules
 
+*Please refer to [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html) for general guidance. Highlighted below are common and important rules.*
+
 * Delete or comment all `console.log()` after debugging.
 <!--  -->
 * Resolve all errors and warnings
 <!--  -->
 * [Use interfaces instead of a type alias when declaring types for objects.](https://google.github.io/styleguide/tsguide.html#interfaces-vs-type-aliases)
-<!--  -->
-<!--  -->
-* [Omit words that are obvious given a variable's type declaration.](https://testing.googleblog.com/2017/10/code-health-identifiernamingpostforworl.html)
-```java
-// Bad, the type tells us what these variables are:
-String nameString; List<datetime> holidayDateList;
-// Better:
-String name; List<datetime> holidays;
-```
 <!--  -->
 * [Omit words that are clear from the surrounding context.](https://testing.googleblog.com/2017/10/code-health-identifiernamingpostforworl.html)
 
