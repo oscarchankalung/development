@@ -1,4 +1,4 @@
-# 20220608 Fung
+# 20220608 Meeting Fung
 
 ## Code Quality
 
@@ -7,7 +7,7 @@
 * Pilot with Selected Project
 * Initiate Team or Individual Monthly Review Meeting
 
-## Team Culture
+## Escalation
 
 * Poor Communication
 * YouTube
