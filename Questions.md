@@ -35,3 +35,6 @@
 <!--  -->
 - How to publish android  app?
   - [Testapp.io](https://testapp.io/)
+
+npm and yarn
+https://www.sitepoint.com/yarn-vs-npm/
