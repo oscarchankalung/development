@@ -33,7 +33,7 @@ Ask three questions about each piece of data:
 2. Does it remain unchanged over time? If so, it probably isn’t state.
 3. Can you compute it based on any other state or props? If so, it isn’t state.
 
-## Step 4: Identity Where Your State Should Live
+## Step 4: Identify Where Your State Should Live
 
 Next, we need to identify which component mutates, or owns, this state.
 
