@@ -18,7 +18,7 @@
 <!--  -->
 - How to optimize Carousel? `useScrollView`
 
-## Publishing App (2022/06/10)
+## Publishing App (2022/07/18)
 
 - Why is Node JS Version important to React-Native?
   - [Which Node JS Version Should I Use?](https://tamalweb.com/which-nodejs-version#:~:text=For%20example%2C%20Node%20version%2010,with%20new%20features%20and%20improvements)
@@ -29,12 +29,24 @@
   - [React Native - Publishing to Apple App Store](https://reactnative.dev/docs/publishing-to-app-store)
 <!--  -->
 - How to publish ios app?
+  - [Xcode Documentation - Preparing Your App for Distribution](https://developer.apple.com/documentation/xcode/preparing-your-app-for-distribution)
   - [Xcode Documentation - Distributing Your App for Beta Testing and Releases](https://developer.apple.com/documentation/xcode/distributing-your-app-for-beta-testing-and-releases)
   - [Xcode Help - Distribute an app using TestFlight (iOS, tvOS, watchOS)](https://help.apple.com/xcode/mac/current/#/dev2539d985f)
   - [App Store Connect Help - TestFlight beta testing overview (iOS, macOS, tvOS, watchOS)](https://help.apple.com/app-store-connect/#/devdc42b26b8)
 <!--  -->
 - How to publish android  app?
   - [Testapp.io](https://testapp.io/)
+
+## Learning
+
+- Calendar
+- Interactive Chart
+- Chatroom
+- Media Input and Output
+- Pan Responder
+- Gesture Handler
+
+## Others
 
 npm and yarn
 https://www.sitepoint.com/yarn-vs-npm/
