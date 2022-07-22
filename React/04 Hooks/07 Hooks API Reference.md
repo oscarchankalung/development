@@ -1,3 +1,5 @@
+# Hooks API Reference
+
 - Basic Hooks
   - useState
     - Functional updates
@@ -17,5 +19,3 @@
   - useImperativeHandle
   - useLayoutEffect
   - useDebugValue
-
-useState
