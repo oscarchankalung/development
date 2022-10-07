@@ -25,8 +25,7 @@
 - **Routing** watches the URL and changes the content accordingly
 - It prevents the browser default of sending extra request to a server
 - Next.js defines pages and routes with files and folder instead of code
-- Less code and easier to understand than **React Router** 
-
+- Less code and easier to understand than **React Router**
 
 ## Key Feature 3: Fullstack Capabilities
 
