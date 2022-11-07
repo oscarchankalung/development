@@ -12,9 +12,29 @@ export interface ISendAttachmentMessageRequest {
   conversationId: string;
   attachment: {
     type?: string; // e.g. 'audio/mp4' or 'image/jpeg'
-    uri: string;   // e.g. '.../02AF85B9-533C-440B-B165-02E1C97813C3.jpg'
+    uri: string;   // e.g. '/Users/.../02AF85B9-533C-440B-B165-02E1C97813C3.jpg'
     name?: string; // e.g. '02AF85B9-533C-440B-B165-02E1C97813C3.jpg'
   };
+}
+```
+
+## Example: Image
+
+```tsx
+const attachment = {
+  name: '02AF85B9-533C-440B-B165-02E1C97813C3.jpg'
+  type: 'image/jpeg',
+  uri: '/Users/.../02AF85B9-533C-440B-B165-02E1C97813C3.jpg'
+}
+```
+
+## Example: Audio
+
+```tsx
+const attachment = {
+  name: 'sound.m4a'
+  type: 'audio/mp4',
+  uri: 'file:///Users/.../sound.m4a'
 }
 ```
 
