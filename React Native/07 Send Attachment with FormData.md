@@ -1,4 +1,4 @@
-# Sending Attachment with FormData
+# Send Attachment with FormData
 
 ## Reference
 
