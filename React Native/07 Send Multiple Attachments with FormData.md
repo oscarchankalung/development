@@ -1,10 +1,5 @@
 # Send Multiple Attachments with FormData
 
-## References
-
-- [MDN - Web APIs - FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData)
-- [Andy Kelso - Medium - sing FormData to Upload Multiple Images](https://kelsocode.medium.com/using-formdata-to-upload-multiple-images-73a6b1aaa179)
-
 ## Model
 
 ```tsx
@@ -96,3 +91,8 @@ const response = await fetchWithTimeout(
   timeout,
 );
 ```
+
+## References
+
+- [MDN - Web APIs - FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData)
+- [Andy Kelso - Medium - sing FormData to Upload Multiple Images](https://kelsocode.medium.com/using-formdata-to-upload-multiple-images-73a6b1aaa179)
