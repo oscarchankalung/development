@@ -92,6 +92,29 @@ const response = await fetchWithTimeout(
 );
 ```
 
+## FindFileType
+
+```tsx
+const findFileType: FindFileType = uri => {
+  if (uri) {
+    const extension = uri.split('.').pop() ?? '';
+    const map: { [key in string]: 'image' | 'audio' } = {
+      png: 'image',
+      jpg: 'image',
+      jpeg: 'image',
+      mp3: 'audio',
+      mp4: 'audio',
+      m4a: 'audio',
+      aac: 'audio',
+      wav: 'audio',
+      oga: 'audio',
+    };
+    return map[extension] ?? undefined;
+  }
+  return undefined;
+};
+```
+
 ## References
 
 - [MDN - Web APIs - FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData)
