@@ -42,7 +42,11 @@ At different jobs, I developed several mobile apps from scratch as a team, for e
 
 Well, I have a biology major, other than MBTI, how to unclog a toilet and mental health.
 
-Genome imprinting. For both curosity and application. I dive deeper to research the answer. How do nature distinguish father and mother gene after growing up?
+Genome imprinting. For both curiosity and application. I dive deeper to research the answer. How does nature distinguish father and mother genes after growing up?
+
+https://learn.genetics.utah.edu/content/epigenetics/imprinting/
+https://www.ncbi.nlm.nih.gov/books/NBK585708/#
+https://www.nature.com/articles/hdy2013129
 
 ### What do you want to be doing in two years?
 
