@@ -8,6 +8,7 @@
 
 ## Written Application: 250 words max
 
+* Explain Genomic Editing
 * Update LinkedIn Profile
 * Update GitHub Profile
 * Update Personal Website
