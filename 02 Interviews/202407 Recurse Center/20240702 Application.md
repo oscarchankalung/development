@@ -1,18 +1,32 @@
 # 20240702 Application
 
-## Practice Coding
+## Deadline
 
-* [Refresh Python](https://learnxinyminutes.com/docs/python/)
-* [Refresh JavaScript](https://learnxinyminutes.com/docs/javascript/)
-* [Practice LeetCode](https://leetcode.com/)
+1. Recurse Center - Fall 1: 08/12
+1. Recurse Center - Fall 2: 09/23
+
+## Priority
+
+- [ ] Explain Genomic Editing
+- [ ] Complete Written Application
+- [ ] Prepare Questions for Conversational Interview
+- [ ] Update LinkedIn Profile
+
+* [ ] Solve Code CracklePop
+* [ ] Write a Tic Tac Toe Game
+* [ ] Organize GitHub Repos
+* [ ] Update Personal Website
+* [ ] [Refresh Python](https://learnxinyminutes.com/docs/python/)
+* [ ] [Refresh JavaScript](https://learnxinyminutes.com/docs/javascript/)
+* [ ] [Practice LeetCode](https://leetcode.com/)
 
 ## Written Application: 250 words max
 
 * Explain Genomic Editing
-* Update LinkedIn Profile
-* Update GitHub Profile
-* Update Personal Website
 * Solve Code CracklePop
+* Update LinkedIn Profile
+* Update Personal Website
+* Organize GitHub Repos
 * Answer Questions
 
 ## Conversational Interview: 7-20 mins
