@@ -7,7 +7,7 @@
 
 ## Priority
 
-- [ ] Explain Genomic Editing
+- [x] Explain Genomic Editing
 - [ ] Complete Written Application
 - [ ] Prepare Questions for Conversational Interview
 - [ ] Update LinkedIn Profile
