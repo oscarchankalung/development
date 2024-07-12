@@ -51,36 +51,68 @@ At different jobs, I developed several mobile apps from scratch as a team, for e
 
 ```py
 turn = 1
+turns = {} 
+mark = " "
 mark1 = "X"
 mark2 = "O"
-markN = " "
 
+grid = None
+gridNum = 3
 gridCol = "|"
-gridRow = "-----"
-grid = [
-    [" ", " ", " "],
-    [" ", " ", " "],
-    [" ", " ", " "],
-]
+gridRow = "-" * (gridNum * 2 - 1)
+
+inputs = {}
+
+def buildGrid():
+    row = []
+    map = []
+
+    for i in range(gridNum):
+        row.append(mark)
+    for j in range(gridNum):
+        map.append(row.copy())
+    return map
 
 def printGrid():
     for i, row in enumerate(grid):
         for j, value in enumerate(row):
-            if j < 2: 
+            if j < gridNum - 1: 
                 print(value, end = gridCol)
             else:
                 print(value)
-        if i < 2: 
-            print(gridRow)
+            if i < gridNum - 1: 
+                print(gridRow)
 
 def placeMark():
     return
 
 def checkGrid():
-    return
+    turns[trun][coordinate] = None
+
+    for i in range(gridNum):
+        marksHorizontal = []
+        marksVertical = []
+        marksDiagonal = []
+
+        for j in range(gridNum):
+            marks
+
+return
 
 def startGame():
+    grid = buildGrid()
     return
+
+def resetGame():
+    grid = buildGrid()
+    return
+
+def endGame():
+    grid = None
+    return
+
+grid = buildGrid()
+printGrid()
 ```
 
 ### What is the most fascinating thing you've learned in the past month?
