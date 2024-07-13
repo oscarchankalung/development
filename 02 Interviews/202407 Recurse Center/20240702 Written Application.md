@@ -60,24 +60,27 @@ gridNum = 3
 gridCol = "|"
 gridRow = "-" * (gridNum * 2 - 1)
 
+inputs = {}
+
 def buildGrid():
     row = []
     map = []
+
     for i in range(gridNum):
         row.append(mark)
     for j in range(gridNum):
         map.append(row.copy())
     return map
-    
+
 def printGrid():
     for i, row in enumerate(grid):
-        for j, value in enumerate(row):
+        for j, mark in enumerate(row):
             if j < gridNum - 1: 
-                print(value, end = gridCol)
+                print(mark, end = gridCol)
             else:
-                print(value)
-        if i < gridNum - 1: 
-            print(gridRow)
+                print(mark)
+            if i < gridNum - 1: 
+                print(gridRow)
 
 # def placeMark():
 #     return
