@@ -8,9 +8,9 @@
 
 > Please include any that you have: GitHub, LinkedIn, personal website, etc.
 
-GitHub: 
-LinkedIn: 
-Personal Website: 
+GitHub: /
+LinkedIn: /
+Personal Website: /
 
 ### Code CracklePop
 
@@ -72,7 +72,7 @@ Otherwise, try to be open and see what existing projects interest me.
 
 ### Describe your programming background in a few sentences
 
-From Hong Kong to New York, self-taught, community, consultant through agency, 
+From Hong Kong to New York, self-taught, community, consultant through agency,
 
 ### Have you worked professionally as a programmer?
 
