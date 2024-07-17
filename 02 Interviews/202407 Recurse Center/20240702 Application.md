@@ -12,8 +12,8 @@
 - [ ] Prepare Questions for Conversational Interview
 - [ ] Update LinkedIn Profile
 
-* [ ] Solve Code CracklePop
-* [ ] Write a Tic Tac Toe Game
+* [x] Solve Code CracklePop
+* [x] Write a Tic Tac Toe Game
 * [ ] Organize GitHub Repos
 * [ ] Update Personal Website
 * [ ] [Refresh Python](https://learnxinyminutes.com/docs/python/)
