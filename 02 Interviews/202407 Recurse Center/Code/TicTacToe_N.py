@@ -4,9 +4,11 @@ mark2 = "O"
 inputs = {}
 
 grid = None
-gridNum = 3
+gridNum = 4
+gridMax = gridNum * gridNum
+gridDgt = len(str(gridMax))
+gridRow = "-" * (gridNum * (gridDgt + 1) - 1)
 gridCol = "|"
-gridRow = "-" * (gridNum * 2 - 1)
 
 
 def buildGrid():
@@ -23,12 +25,14 @@ def buildGrid():
     return map
 
 def printGrid():
+    format = "0" * gridDgt - 1 + gridDgt
+
     for i, row in enumerate(grid):
         for j, value in enumerate(row):
             if j < gridNum - 1: 
-                print(value, end = gridCol)
+                print(f"{value:{format}}", end = gridCol)
             else:
-                print(value)
+                print(f"{value:{format}}")
         if i < gridNum - 1: 
             print(gridRow)
 
