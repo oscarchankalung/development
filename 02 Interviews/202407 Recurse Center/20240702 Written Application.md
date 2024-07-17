@@ -8,9 +8,9 @@
 
 > Please include any that you have: GitHub, LinkedIn, personal website, etc.
 
-GitHub: /
-LinkedIn: /
-Personal Website: /
+GitHub: https://github.com/oscarchankalung
+LinkedIn: https://www.linkedin.com/in/oscarchankalung/
+Personal Website: https://oscarchankalung.github.io/
 
 ### Code CracklePop
 
@@ -18,17 +18,11 @@ Personal Website: /
 <!--  -->
 > Don’t submit a CracklePop without testing it to make sure it works. This shows carelessness and doesn’t give us confidence that you can program.
 
-[Permanent link on PythonTutor](https://pythontutor.com/render.html#code=i%20%3D%201%0A%0Awhile%20i%20%3C%3D%20100%3A%0A%20%20%20%20isDivisibleBy5%20%3D%20i%20%25%205%20%3D%3D%200%0A%20%20%20%20isDivisibleBy3%20%3D%20i%20%25%203%20%3D%3D%200%0A%0A%20%20%20%20if%20isDivisibleBy5%20and%20isDivisibleBy3%3A%0A%20%20%20%20%20%20%20%20print%28%22CracklePop%22%29%0A%20%20%20%20elif%20isDivisibleBy5%3A%0A%20%20%20%20%20%20%20%20print%28%22Pop%22%29%0A%20%20%20%20elif%20isDivisibleBy3%3A%0A%20%20%20%20%20%20%20%20print%28%22Crackle%22%29%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20print%28i%29%0A%0A%20%20%20%20i%20%2B%3D%201&cumulative=false&curInstr=776&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false)
-
 ### Please link to a program you've written from scratch
 
 > You can use something like GitHub's gist to host your code. It doesn't need to be long, but it should be something you've written yourself, and not using a framework (e.g., Rails). If you don't have anything to submit, code something small, like a game of tic-tac-toe.
 <!--  -->
 > Don’t paste the code of your program from scratch into the answer box on the application. Please link to it on GitHub or another website where it's hosted.
-
-Hearthstone Card Random Generator. A few years ago when I first started learning web development.
-
-At different jobs, I developed several mobile apps from scratch as a team, for example, a wine collection. These projects are cloned as private repos for personal reference while keeping confidentiality, but I'm happy to authorize access temporarily if anyone is interested.
 
 ### What is the most fascinating thing you've learned in the past month?
 
