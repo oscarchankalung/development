@@ -50,6 +50,7 @@ def inputOption(turn):
     return option
 
 def checkOption(grid, option):
+    marks = { 1: "X", 2: "O" }
     invalid = "Option is invalid. Please try again."
     repeated = "Option is repeated. Please try again."
 
@@ -57,14 +58,17 @@ def checkOption(grid, option):
         option = int(option)
         index = option - 1
         
-        if option == grid[index]:
+        if grid[index] == option:
             return option, True
-        elif option != grid[index]:
+        elif grid[index] in marks.values():
             return option, repeated
         else:
             return option, invalid        
     except (ValueError, IndexError):
-        return option, invalid
+        if option == "Q":
+            return option, False
+        else:
+            return option, invalid
 
 def takeTurn(grid = [1, 2, 3, 4, 5, 6, 7, 8, 9], turn = 1):
     printGrid(grid)
@@ -85,6 +89,8 @@ def takeTurn(grid = [1, 2, 3, 4, 5, 6, 7, 8, 9], turn = 1):
         elif win:
             printGrid(grid)
             print(f"Player {player} win!")
+    elif valid is False:
+        exit
     else:
         print()
         print(valid)
