@@ -1,5 +1,10 @@
 # 202407 Recurse Center
 
+## Playgrounds
+
+* [CracklePop's permanent link on PythonTutor](https://pythontutor.com/render.html#code=i%20%3D%201%0A%0Awhile%20i%20%3C%3D%20100%3A%0A%20%20%20%20isDivisibleBy5%20%3D%20i%20%25%205%20%3D%3D%200%0A%20%20%20%20isDivisibleBy3%20%3D%20i%20%25%203%20%3D%3D%200%0A%0A%20%20%20%20if%20isDivisibleBy5%20and%20isDivisibleBy3%3A%0A%20%20%20%20%20%20%20%20print%28%22CracklePop%22%29%0A%20%20%20%20elif%20isDivisibleBy5%3A%0A%20%20%20%20%20%20%20%20print%28%22Pop%22%29%0A%20%20%20%20elif%20isDivisibleBy3%3A%0A%20%20%20%20%20%20%20%20print%28%22Crackle%22%29%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20print%28i%29%0A%0A%20%20%20%20i%20%2B%3D%201&cumulative=false&curInstr=776&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false)
+* [TicTacToe's permanent link on VSCode Online](?)
+
 ## Tasks
 
 ### CracklePop
