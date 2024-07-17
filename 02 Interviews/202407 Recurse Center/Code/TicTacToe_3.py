@@ -46,11 +46,17 @@ def checkGrid(grid, option):
 
 def inputOption(turn):
     player = (turn - 1) % 2 + 1
-    option = input(f"Player {player}'s option: ")
+    option = input(f"Player{player}'s option: ")
     return option
 
 def checkOption(grid, option):
     marks = { 1: "X", 2: "O" }
+    options = {
+        "mode": ("PvP", "PvC"), 
+        "level": ("random", "optimised"),
+        "number": (1,2,3,4,5,6,7,8,9),
+        "control": ("quit", "reset"),
+    }
     invalid = "Option is invalid. Please try again."
     repeated = "Option is repeated. Please try again."
 
@@ -65,7 +71,9 @@ def checkOption(grid, option):
         else:
             return option, invalid        
     except (ValueError, IndexError):
-        if option == "Q":
+        option = str(option)
+
+        if option in options['control']:
             return option, False
         else:
             return option, invalid
@@ -88,15 +96,35 @@ def takeTurn(grid = [1, 2, 3, 4, 5, 6, 7, 8, 9], turn = 1):
             print(f"Draw!")
         elif win:
             printGrid(grid)
-            print(f"Player {player} win!")
+            print(f"Player{player} win!")
     elif valid is False:
-        exit
+        if option == "quit":
+            print()
+            print("Quiting game...")
+            exit
+        if option == "reset":
+            print()
+            print("Reseting game...")
+            resetGame()
     else:
         print()
         print(valid)
         takeTurn(grid, turn)
 
 def startGame():
+    print()
+    print("=================")
+    print("- Tic Tac Toe 3 -")
+    print("=================")
+    print()
+    print("Player1: X")
+    print("Player2: O")
+    print("Options: 1, 2, 3, 4, 5, 6, 7, 8, 9, quit, reset")
+    print()
+    takeTurn()
+
+def resetGame():
+    print()
     takeTurn()
 
 startGame()
