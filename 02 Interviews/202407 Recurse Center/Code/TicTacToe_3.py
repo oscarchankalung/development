@@ -1,52 +1,96 @@
-turn = 1
-mark1 = "X"
-mark2 = "O"
-inputs = {}
+def printGrid(grid):
+    print()
+    print(f"{grid[0]}|{grid[1]}|{grid[2]}")
+    print(f"-----")
+    print(f"{grid[3]}|{grid[4]}|{grid[5]}")
+    print(f"-----")
+    print(f"{grid[6]}|{grid[7]}|{grid[8]}")
+    print()
 
-grid = None
-gridNum = 3
-gridCol = "|"
-gridRow = "-" * (gridNum * 2 - 1)
+def markGrid(grid, turn, option):
+    marks = { 1: "X", 2: "O" }
+    player = (turn - 1) % 2 + 1
+    index = option - 1
+    grid[index] = marks[player]
+    return grid
 
+def checkGrid(grid, option):
+    horz1 = ( grid[0], grid[1], grid[2] )
+    horz2 = ( grid[3], grid[4], grid[5] )
+    horz3 = ( grid[6], grid[7], grid[8] )
 
-def buildGrid():
-    # [ [1,2,3], [4,5,6], [7,8,9] ]
-    map = []
+    vert1 = ( grid[0], grid[3], grid[6] )
+    vert2 = ( grid[1], grid[4], grid[7] )
+    vert3 = ( grid[2], grid[5], grid[8] )
 
-    for i in range(gridNum):
-        row = []    
-        for j in range(gridNum):
-            x = i * gridNum # 0,3,6
-            y = j + 1       # 1,2,3
-            value = x + y
-            row.append(value)
-        map.append(row)
-    return map
+    diag1 = ( grid[0], grid[4], grid[8] )
+    diag2 = ( grid[2], grid[4], grid[6] )
 
-def printGrid():
-    for i, row in enumerate(grid):
-        for j, value in enumerate(row):
-            if j < gridNum - 1: 
-                print(value, end = gridCol)
-            else:
-                print(value)
-        if i < gridNum - 1: 
-            print(gridRow)
+    checklists = {
+        1: ( horz1, vert1, diag1 ),
+        2: ( horz1, vert2 ),
+        3: ( horz1, vert3, diag2 ),
+        4: ( horz2, vert1 ),
+        5: ( horz2, vert2, diag1, diag2 ),
+        6: ( horz2, vert3 ),
+        7: ( horz3, vert1, diag2 ),
+        8: ( horz3, vert2),
+        9: ( horz3, vert3, diag1 ),
+    }
+    checklist = checklists[option]
 
-# def placeMark():
-#     return
+    for streak in checklist:
+        if streak[0] == streak[1] == streak[2]:
+            return True
+    return False
 
-# def checkGrid():
-#     return
+def inputOption(turn):
+    player = (turn - 1) % 2 + 1
+    option = input(f"Player {player}'s option: ")
+    return option
 
-# def startGame():
-#     return
+def checkOption(grid, option):
+    invalid = "Option is invalid. Please try again."
+    repeated = "Option is repeated. Please try again."
 
-# def resetGame():
-#     return
+    try:
+        option = int(option)
+        index = option - 1
+        
+        if option == grid[index]:
+            return option, True
+        elif option != grid[index]:
+            return option, repeated
+        else:
+            return option, invalid        
+    except (ValueError, IndexError):
+        return option, invalid
 
-# def endGame():
-#     return
+def takeTurn(grid = [1, 2, 3, 4, 5, 6, 7, 8, 9], turn = 1):
+    printGrid(grid)
+    option = inputOption(turn)
+    option, valid = checkOption(grid, option)
+    player = (turn - 1) % 2 + 1
 
-grid = buildGrid()
-printGrid()
+    if valid is True:
+        grid = markGrid(grid, turn, option)
+        win = checkGrid(grid, option)
+
+        if not win and turn < 9:
+            turn += 1
+            takeTurn(grid, turn)
+        elif not win and turn == 9:
+            printGrid(grid)
+            print(f"Draw!")
+        elif win:
+            printGrid(grid)
+            print(f"Player {player} win!")
+    else:
+        print()
+        print(valid)
+        takeTurn(grid, turn)
+
+def startGame():
+    takeTurn()
+
+startGame()
