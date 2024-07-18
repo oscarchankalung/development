@@ -16,21 +16,52 @@
 ### TicTacToe
 
 > Before your interview, write a program that lets two humans play a game of Tic Tac Toe in a terminal. The program should let the players take turns to input their moves. The program should report the outcome of the game.
-<!--  -->
+
+```py
+def startGame()
+def resetGame()
+def takeTurn()
+
+def printGrid()
+def markGrid()
+def checkGrid()
+
+def inputOption()
+def checkOption()
+```
+
 > During your interview, you will pair on adding support for a computer player to your game. You can start with random moves and make the AI smarter if you have time.
+
+```py
+# Backend
+# Add level: random
+# Add level: perfect
+# Add dynamic: GridNum = N
+
+moves: {
+  'easy': [center, corner, side],
+  'medium': [win, block, center, oppositeCorner, corner, side],
+  'perfect': [win, block, fork, blockFork, center, oppositeCorner, corner, side],
+}
+
+# Frontend
+print("What mode to play: \"PvP\" or \"PvC\" ?")
+print("What level of difficulty: \"random\", \"easy\", \"medium\" or \"perfect\" ?")
+print("Who goes first: \"player\" or \"computer\" ?")
+```
 
 ## Programs
 
 - [x] CracklePop
 - [x] TicTacToe_3_PvP
 - [ ] TicTacToe_3_PvC_Random
-- [ ] TicTacToe_3_PvC_Optimized
+- [ ] TicTacToe_3_PvC_Perfect
 - [ ] TicTacToe_N
 
 ## To Do
 
 - [ ] Add random computer
-- [ ] Add optimized computer
-- [ ] Add completed dynamic game
+- [ ] Add perfect computer
+- [ ] Add dynamic game
 - [ ] Add automated testing
 - [ ] Rewrite printed message in terminal
