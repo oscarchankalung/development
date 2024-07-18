@@ -10,15 +10,17 @@
 - [x] Apply for Recurse: Explain Genomic Editing
 - [ ] Apply for Recurse: Complete Written Application
 - [ ] Apply for Recurse: Prepare Questions for Conversational Interview
-- [ ] Apply for Recurse: Update LinkedIn Profile
 
 * [x] Apply for Recurse: Solve Code CracklePop
 * [x] Apply for Recurse: Write a Tic Tac Toe Game
-* [ ] Apply for Recurse: Organize GitHub Repos
-* [ ] Apply for Recurse: Update Personal Website
-* [ ] Apply for Recurse: [Refresh Python](https://learnxinyminutes.com/docs/python/)
-* [ ] Apply for Recurse: [Refresh JavaScript](https://learnxinyminutes.com/docs/javascript/)
-* [ ] Apply for Recurse: [Practice LeetCode](https://leetcode.com/)
+* [x] Apply for Recurse: Prepare for a perfect Tic Tac Toe Game
+
+- [ ] Apply for Recurse: Update LinkedIn Profile
+- [ ] Apply for Recurse: Organize GitHub Repos
+- [ ] Apply for Recurse: Update Personal Website
+- [ ] Apply for Recurse: [Refresh Python](https://learnxinyminutes.com/docs/python/)
+- [ ] Apply for Recurse: [Refresh JavaScript](https://learnxinyminutes.com/docs/javascript/)
+- [ ] Apply for Recurse: [Practice LeetCode](https://leetcode.com/)
 
 ## Written Application: 250 words max
 
