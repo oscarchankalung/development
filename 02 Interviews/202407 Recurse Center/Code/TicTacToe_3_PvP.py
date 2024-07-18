@@ -53,8 +53,9 @@ def checkOption(grid, option):
     marks = { 1: "X", 2: "O" }
     options = {
         "mode": ("PvP", "PvC"), 
-        "level": ("random", "optimised"),
-        "number": (1,2,3,4,5,6,7,8,9),
+        "level": ("random", "easy", "medium", "perfect"),
+        "first": ("player", "computer"),
+        "number": (1, 2, 3, 4, 5, 6, 7, 8, 9),
         "control": ("quit", "reset"),
     }
     invalid = "Option is invalid. Please try again."
@@ -104,7 +105,7 @@ def takeTurn(grid = [1, 2, 3, 4, 5, 6, 7, 8, 9], turn = 1):
             exit
         if option == "reset":
             print()
-            print("Reseting game...")
+            print("Resetting game...")
             resetGame()
     else:
         print()
