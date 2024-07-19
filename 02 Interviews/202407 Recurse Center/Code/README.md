@@ -47,7 +47,7 @@ levels: {
   'perfect': [win, block, fork, blockFork, center, oppositeCorner, corner, side],
 }
 
-for strategies in levels:
+for strategy in levels['perfect']:
 
 # Frontend
 print("What mode to play: \"PvP\" or \"PvC\" ?")
