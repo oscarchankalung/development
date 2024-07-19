@@ -8,10 +8,10 @@
 
 > Please include any that you have: GitHub, LinkedIn, personal website, etc.
 
-GitHub: https://github.com/oscarchankalung
-LinkedIn: https://www.linkedin.com/in/oscarchankalung/
-CV: https://oscarchankalung.github.io/img/portfolio/CV.pdf
-Personal Website: https://oscarchankalung.github.io/
+* GitHub: https://github.com/oscarchankalung
+* LinkedIn: https://www.linkedin.com/in/oscarchankalung/
+* CV: https://oscarchankalung.github.io/img/portfolio/CV.pdf
+* Personal Website: https://oscarchankalung.github.io/
 
 ### Code CracklePop
 
