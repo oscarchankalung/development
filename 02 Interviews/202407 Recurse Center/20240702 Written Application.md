@@ -19,7 +19,7 @@ Personal Website: https://oscarchankalung.github.io/
 <!--  -->
 > Don’t submit a CracklePop without testing it to make sure it works. This shows carelessness and doesn’t give us confidence that you can program.
 
-https://github.com/oscarchankalung/development-notebook/tree/04f559f3776fa2a7916bbaebd23dd43e5945f8af/02%20Interviews/202407%20Recurse%20Center/Code
+https://github.com/oscarchankalung/development-notebook/tree/main/02%20Interviews/202407%20Recurse%20Center/Code
 
 ### Please link to a program you've written from scratch
 
@@ -27,7 +27,7 @@ https://github.com/oscarchankalung/development-notebook/tree/04f559f3776fa2a7916
 <!--  -->
 > Don’t paste the code of your program from scratch into the answer box on the application. Please link to it on GitHub or another website where it's hosted.
 
-https://github.com/oscarchankalung/development-notebook/tree/04f559f3776fa2a7916bbaebd23dd43e5945f8af/02%20Interviews/202407%20Recurse%20Center/Code
+https://github.com/oscarchankalung/development-notebook/tree/main/02%20Interviews/202407%20Recurse%20Center/Code
 
 ### What is the most fascinating thing you've learned in the past month?
 
