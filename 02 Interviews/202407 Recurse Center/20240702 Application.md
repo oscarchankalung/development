@@ -8,7 +8,7 @@
 ## Priority
 
 - [x] Apply for Recurse: Explain Genomic Editing
-- [ ] Apply for Recurse: Complete Written Application
+- [x] Apply for Recurse: Complete Written Application
 - [ ] Apply for Recurse: Prepare Questions for Conversational Interview
 
 * [x] Apply for Recurse: Solve Code CracklePop
