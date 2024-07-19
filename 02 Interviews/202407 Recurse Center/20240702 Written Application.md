@@ -37,15 +37,11 @@ https://github.com/oscarchankalung/development-notebook/tree/main/02%20Interview
 <!--  -->
 > Your best opportunity to demonstrate this in your application is the question about the most fascinating thing you’ve learned recently. We want to hear about something surprising you learned, and it doesn’t need to be about programming. We’ve seen great answers to this question about everything from making jewelry to plant taxonomy to music theory.
 
-Other than sex chromosomes, it may seem common sense to assume genetic contributions from father and mother are equivalent, but nature always has an exception. Genomic imprinting is a natural phenomenon that suggests a sexual tug-of-war has been ongoing at the molecular level of the human species.
+Genomic imprinting is a natural phenomenon that suggests a sexual tug-of-war has been ongoing at the molecular level of the human species. The core phase happens after fertilization when maternal and paternal genomes compete to imprint the DNA to regulate gene expression epigenetically.
 
-The core phase happens after fertilization when maternal and paternal genomes compete to imprint the DNA to regulate gene expression epigenetically. For example, DNA methylation turns the gene on, and DNA demethylation turns the gene off.
+It turned out many imprinted genes are involved in growth and metabolism. Maternal imprinting reduces the growth of offspring by favoring uniform distribution of resources. In contrast, paternal imprinting promotes the growth of offspring by increasing the acquisition of nutrients from the mother. This constitutes the basis of Parental Conflict Theory, which proposes imprinting grew out of a competition between males for maternal resources. This concept is consistent with classical natural selection and sperm competition.
 
-It turned out that many imprinted genes are involved in growth and metabolism. Maternal imprinting reduces the growth of offspring by favoring uniform distribution of resources. In contrast, paternal imprinting promotes the growth of offspring by increasing the acquisition of nutrients from the mother. This constitutes the basis of Parental Conflict Theory, which proposes imprinting grew out of a competition between males for maternal resources.
-
-This concept is consistent with classical natural selection and sperm competition. In some species, a female can mate more than once and have offspring from two or more males. If one father’s offspring grows larger than the rest, his offspring will be more likely to survive adulthood and pass along their genes.
-
-More interestingly, this biased gene expression is only observed in mammals and seed plants, in which the development of fetuses and seeds depends solely on resources provided by the mother. However, such bias doesn’t occur in fish and birds, in which the number of resources deposited in the egg is determined by the mother before fertilization. This is also true for egg-laying mammals, but not for pouched mammals.
+More interestingly, this biased gene expression is only observed in mammals and seed plants, in which the development of fetuses and seeds depends solely on resources provided by the mother. However, such bias doesn’t occur in fish and birds, in which the number of resources deposited in the egg is determined by the mother before fertilization.
 
 The story does not end here. Since not all imprinted genes regulate growth, parental conflict theory does not apply to those cases. Many non-conflict theories have therefore been proposed. These alternative hypotheses may revise the entrenched view of kinship or sexual conflict in humans and other organisms.
 
@@ -109,4 +105,4 @@ Plus, university courses are usually detached from the business world to my know
 
 Not really. I can easily quit my current job as a part-time Cantonese interpreter at CyraCom. Since I’m separated from my wife who sponsored my visa and promised to keep doing it for my green card application, I’m single in this magical foreign city with no blood relatives.
 
-I assume the schedule is 5 hours s work plus 1 hour of lunch per day? I assume some people stay longer than that, right?
+I assume the schedule is 5 hours of work plus 1 hour of lunch per day? I assume some people stay longer than that, right?
