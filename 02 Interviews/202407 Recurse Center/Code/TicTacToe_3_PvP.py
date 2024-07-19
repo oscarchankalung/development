@@ -102,6 +102,7 @@ def takeTurn(grid = [1, 2, 3, 4, 5, 6, 7, 8, 9], turn = 1):
         if option == "quit":
             print()
             print("Quiting game...")
+            print()
             exit
         if option == "reset":
             print()
