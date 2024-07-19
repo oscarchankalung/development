@@ -38,11 +38,14 @@ def checkOption()
 # Add level: perfect
 # Add dynamic: GridNum = N
 
-moves: {
+levels: {
+  'random': [random],
   'easy': [center, corner, side],
   'medium': [win, block, center, oppositeCorner, corner, side],
   'perfect': [win, block, fork, blockFork, center, oppositeCorner, corner, side],
 }
+
+for strategies in levels:
 
 # Frontend
 print("What mode to play: \"PvP\" or \"PvC\" ?")
