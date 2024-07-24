@@ -1,12 +1,14 @@
 # 202407 Recurse Center
 
-## Second Application
+## More on Written Application
 
 As I read more about the center, I freaked out and withdrew the application.
 
 Thanks to Finn Clarke, who helped me un-withdrew it.
 
-I revised the answers to some questions on [20240720 Second Application](../20240720%20Second%20Application.md).
+I miss this boy a lot and revised the answers to some questions on [20240720 Second Application](../20240720%20Second%20Application.md).
+
+<img width='300' style="border: 2px solid black;" src='./03_42.jpg' alt="42"/>   <img width='300' style="border: 2px solid black;" src='./02_Coderbunker.jpg' alt="Coderbunker"/>   <img width='266.67' style="border: 2px solid black;" src='./01_Biology.jpg' alt="Biology"/>
 
 ## Coding Tasks
 
