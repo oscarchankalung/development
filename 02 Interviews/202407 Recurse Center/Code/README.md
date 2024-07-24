@@ -1,13 +1,14 @@
 # 202407 Recurse Center
 
-## Commands
+## Second Application
 
-```bash
-python3 CracklePop.py
-python3 TicTacToe_3_PvP.py
-```
+As I read more about the center, I freaked out and withdrew the application.
 
-## Tasks
+Thanks to Finn Clarke, who helped me un-withdrew it.
+
+I revised the answers to some questions on [20240720 Second Application](../20240720%20Second%20Application.md).
+
+## Coding Tasks
 
 ### CracklePop
 
@@ -15,9 +16,17 @@ python3 TicTacToe_3_PvP.py
 <!--  -->
 > Don’t submit a CracklePop without testing it to make sure it works. This shows carelessness and doesn’t give us confidence that you can program.
 
+```bash
+python3 CracklePop.py
+```
+
 ### TicTacToe
 
 > Before your interview, write a program that lets two humans play a game of Tic Tac Toe in a terminal. The program should let the players take turns to input their moves. The program should report the outcome of the game.
+
+```bash
+python3 TicTacToe_3_PvP.py
+```
 
 ```py
 def startGame()
