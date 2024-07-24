@@ -2,9 +2,9 @@
 
 ## More on Written Application
 
-As I read more about the center, I freaked out and withdrew the application.
+As I read more about the center, I freaked out and withdrew the application on July 20th.
 
-Thanks to Finn Clarke, who helped me un-withdrew it.
+Thanks to Finn Clarke, who un-withdrew the application for me on July 22nd.
 
 I miss this boy a lot and revised the answers to some questions on [20240720 Second Application](../20240720%20Second%20Application.md).
 
