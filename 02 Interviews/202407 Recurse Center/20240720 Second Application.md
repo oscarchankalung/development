@@ -20,7 +20,9 @@ Although joining a boot camp wouldn't hurt, I have what it takes to make myself 
 
 Metaphysically, I try to prioritize being present and living in the moment over achieving success. My current job as a minimum-wage Cantonese interpreter is facile and charitable, but underwhelming. By joining RC, I hope I can get back to the better-paid and more challenging tech industry without ruining my mental health.
 
-This ultra-capitalistic system slaves people with workaholism. Ultimately
+This ultra-capitalistic system slaves people with workaholism.
+
+I need to earn money so that I can attend university classes in English, Psychology, Anthropology, Gender Studies, Art...
 
 ## Why do you want to attend RC? How would attending RC be different than working on your own?
 
