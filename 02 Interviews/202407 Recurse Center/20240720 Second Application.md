@@ -24,6 +24,10 @@ This ultra-capitalistic system slaves people with workaholism.
 
 I need to earn money so that I can attend university classes in English, Psychology, Anthropology, Gender Studies, Art...
 
+**4th attempt**
+
+I’m fucking anxious. I kept rethinking this question, such that I withdrew and un-withdrew the application. I interpret the question as what I want to do for the rest of my life. I concluded to myself: For now, I just want to stay in the US, earn more money by doing tech, and do whatever I want to do with more resources.
+
 ## Why do you want to attend RC? How would attending RC be different than working on your own?
 
 **1st attempt**
